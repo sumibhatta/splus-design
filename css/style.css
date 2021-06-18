@@ -1,0 +1,35 @@
+.search-button {
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+navbar>ul>li {
+    font-weight: bold;
+}
+
+navbar>ul>li>a {
+    color: green;
+}
+
+.section-title {
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+.category-item {
+    border: 1px solid grey;
+    color: green;
+}
+
+.container {
+    background-color: #B19FF9;
+    color: white;
+}
+
+footer {
+    background-color: #323E42;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
