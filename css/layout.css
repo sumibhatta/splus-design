@@ -6,11 +6,12 @@
  
  .top-icon {
      display: inline-block;
+     margin-right: 10px;
  }
  
  .logo-header {
      display: inline-block;
-     padding: 20px 30px;
+     padding: 20px 0 0 65px;
  }
  
  .logo {
@@ -23,20 +24,28 @@
  
  .search-wrapper {
      float: left;
-     margin-left: 115px;
+     margin-left: 25px;
+     padding: 10px;
  }
  
- .search-wrapper>input {
-     padding: 12px 195px 12px 8px;
+ .search-text>input {
+     padding: 7px 188px 10px 20px;
+     display: inline-block;
+ }
+ 
+ .button {
+     padding: 13px 20px 12px 20px;
  }
  
  .search-button {
-     padding: 13px 20px;
+     display: inline-block;
+     padding: 13px 20px 12px 20px;
  }
  
  .cart-wrapper {
-     display: inline-block;
-     margin: 0px 139px;
+     float: right;
+     margin: 0px -95px 0 0;
+     padding: 10px;
  }
  
  navbar>ul {
@@ -62,9 +71,24 @@
  }
  
  .list-of-categories {
-     margin: 0 auto;
+     margin: 0px 65px;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ 
+ .view-all>a {
+     display: table;
+     margin: 0 auto;
+ }
+ 
+ .view-all>a>img {
+     margin-top: 3px;
+     position: absolute;
+ }
+ 
+ .more-btn {
+     margin: 6px 0 0 0;
+     position: absolute;
  }
  
  .category-item {
@@ -78,37 +102,120 @@
  }
  
  .product-group {
-     margin: 0 80px;
+     margin: 0px 85px;
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
-     list-style: none;
+ }
+ 
+ .brand {
+     padding: 3px;
+ }
+ 
+ .price {
+     padding: 3px;
+ }
+ 
+ .product-item {
+     padding: 30px 5px;
  }
  
  .container {
      display: grid;
-     grid-template-columns: 1fr 1.5fr;
-     margin: 0 95px;
+     grid-template-columns: 1fr 1.7fr;
+     margin: 0 87px;
      padding: 20px;
  }
  
- footer {
-     height: 40px;
-     width: 100%;
-     margin: 20px 0 0 0;
+ .about-text {
+     text-align: justify;
+     float: left;
+     padding: 30px;
  }
- /* 
-.products {
-    height: 100px;
-    width: 100%;
-    background-color: yellow;
-}
-
-
-.moreinfo {
-    height: 100px;
-    width: 100%;
-    background-color: blue;
-}
-
-
-} */
+ 
+ .shop-notification {
+     padding: 20px 15px;
+     background-color: green;
+     color: white;
+ }
+ 
+ .notification {
+     text-align: center;
+     font-size: large;
+ }
+ 
+ footer {
+     width: 100%;
+     text-align: center;
+     margin: 0;
+ }
+ 
+ .newsletter {
+     padding: 20px;
+ }
+ 
+ .newsletter-message {
+     width: 272px;
+     display: table;
+     margin: 15px auto;
+ }
+ 
+ #email {
+     padding: 10px 45px 10px 15px;
+ }
+ 
+ .btn {
+     padding: 12px 15px;
+     border: none;
+     border-radius: 0 9px;
+     background-color: white;
+ }
+ 
+ .footer-row {
+     display: grid;
+     margin-top: 20px;
+     grid-template-columns: 1fr 1fr 2fr 2fr;
+ }
+ 
+ .footer-column {
+     text-align: justify;
+     margin-left: 30px;
+ }
+ 
+ .form-title {
+     margin-right: 70px;
+ }
+ 
+ #elephant {
+     margin: 62px 0 0 8px;
+ }
+ 
+ .icons {
+     margin: 10px 0 0 25px;
+ }
+ 
+ .social-icon {
+     display: inline;
+     padding: 5px;
+ }
+ 
+ .input {
+     display: block;
+     width: 70%;
+     height: 48px;
+     border-radius: 4px 4px 2px 2px;
+     margin-bottom: 2px;
+     margin-left: 20px;
+     padding-left: 10px;
+ }
+ 
+ .input-message.input {
+     padding: 29px 0 70px 10px;
+ }
+ 
+ .send-button {
+     display: block;
+     width: 70%;
+     text-align: center;
+     padding: 9px 12px;
+     margin: 0px 0 25px 20px;
+ }

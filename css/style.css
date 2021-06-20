@@ -1,7 +1,27 @@
-.search-button {
+body {
+    line-height: 1.6em;
+}
+
+.button {
     border: none;
+    font-size: 15px;
+}
+
+.category-search-button {
+    background-color: grey;
+    color: white;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.search-text>input {
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
+.search-button {
     background-color: green;
     color: white;
+    border: none;
 }
 
 navbar>ul>li {
@@ -10,10 +30,15 @@ navbar>ul>li {
 
 navbar>ul>li>a {
     color: green;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .section-title {
     color: green;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
     border-bottom: 3px solid green;
 }
 
@@ -22,14 +47,58 @@ navbar>ul>li>a {
     color: green;
 }
 
-.container {
-    background-color: #B19FF9;
-    color: white;
+.product-group {
+    list-style: none;
+}
+
+.brand {
+    color: grey;
+}
+
+.view-all>a {
+    color: green;
+}
+
+.about-text {
+    color: #333;
+    background-color: #f6f6f6;
 }
 
 footer {
     background-color: #323E42;
     color: white;
-    text-align: center;
-    padding: 10px;
+}
+
+.newsletter {
+    background-color: #000;
+}
+
+.footer-main {
+    text-transform: uppercase;
+}
+
+.footer-title {
+    font-size: medium;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    color: #869198;
+    font-size: medium;
+}
+
+.input {
+    border: none;
+    background-color: #444444;
+    color: #999;
+    font-size: 16px;
+}
+
+.send-button {
+    background-color: #2b9b2b;
+    border: 1px solid transparent;
+    border-radius: 2px 2px 4px 4px;
+    color: #fff;
 }
