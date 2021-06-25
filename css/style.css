@@ -7,6 +7,14 @@ body {
     font-size: 15px;
 }
 
+.button:hover,
+.cart-wrapper:hover,
+.category-item:hover,
+h4.title:hover,
+.logo-header:hover {
+    cursor: pointer;
+}
+
 .category-search-button {
     background-color: grey;
     color: white;
@@ -19,9 +27,18 @@ body {
 }
 
 .search-button {
-    background-color: green;
+    transition: all 0.3s ease;
+    background: green;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    /* background-color: green; */
     color: white;
     border: none;
+}
+
+.search-button:hover {
+    background-position: left bottom;
+    background-color: #055816;
 }
 
 navbar>ul>li {
@@ -47,8 +64,18 @@ navbar>ul>li>a {
     color: green;
 }
 
+.category-item:hover {
+    background-color: #EEEDE7;
+    color: #1C4508;
+}
+
 .product-group {
     list-style: none;
+    transition: all 2 ease;
+}
+
+.product-item>a>img:hover {
+    border: 1px solid green;
 }
 
 .brand {
@@ -59,9 +86,17 @@ navbar>ul>li>a {
     color: green;
 }
 
+.view-all>a:hover {
+    border-bottom: 1px solid green;
+}
+
 .about-text {
     color: #333;
     background-color: #f6f6f6;
+}
+
+.about-view-all>a {
+    margin: 20px 0 !important;
 }
 
 footer {
@@ -71,6 +106,10 @@ footer {
 
 .newsletter {
     background-color: #000;
+}
+
+.notification-title {
+    font-weight: bold;
 }
 
 .footer-main {
@@ -101,4 +140,59 @@ footer {
     border: 1px solid transparent;
     border-radius: 2px 2px 4px 4px;
     color: #fff;
+}
+
+
+/* Login form */
+
+.login-button>a>button {
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+form>li {
+    list-style: none;
+}
+
+
+/* Wishlist */
+
+.path {
+    margin: 20px 60px;
+}
+
+.wishlist-list>h1 {
+    margin: 25px 60px;
+}
+
+table {
+    border-collapse: collapse;
+    display: table;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+td,
+th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.wish-button {
+    background-color: green;
+    color: white;
+    margin: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
 }

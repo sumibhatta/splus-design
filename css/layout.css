@@ -22,6 +22,12 @@
      float: left;
  }
  
+ .category-search-button>img {
+     position: relative;
+     top: 3px;
+     left: 2px;
+ }
+ 
  .search-wrapper {
      float: left;
      margin-left: 25px;
@@ -57,6 +63,10 @@
  navbar>ul>li {
      display: inline-block;
      padding-right: 20px;
+ }
+ 
+ navbar>ul>li>a:hover {
+     color: #055816;
  }
  
  .carousel>img {
@@ -159,6 +169,10 @@
      margin: 15px auto;
  }
  
+ .input-group {
+     padding: 15px;
+ }
+ 
  #email {
      padding: 10px 45px 10px 15px;
  }
@@ -172,7 +186,7 @@
  
  .footer-row {
      display: grid;
-     margin-top: 20px;
+     padding-top: 20px;
      grid-template-columns: 1fr 1fr 2fr 2fr;
  }
  
@@ -218,4 +232,58 @@
      text-align: center;
      padding: 9px 12px;
      margin: 0px 0 25px 20px;
+ }
+ /* Login.html */
+ 
+ .login-button>a>button {
+     padding: 10px 20px;
+     float: right;
+     margin: 35px 80px;
+ }
+ 
+ .login-main {
+     text-align: start;
+     transform: translate(-50%, -50%);
+     top: 45%;
+     position: absolute;
+     left: 50%;
+ }
+ 
+ .login-subtitle {
+     padding: 20px 0;
+ }
+ 
+ .box-text,
+ #form-password,
+ #form-email {
+     display: block;
+ }
+ 
+ .box {
+     padding: 10px 104px 10px 10px;
+     border-radius: 5px;
+     border: none;
+     background-color: #cfcfc1;
+ }
+ 
+ .box-text {
+     font-size: 14px;
+     font-weight: 500;
+ }
+ 
+ #form-button {
+     padding: 10px 124px;
+     margin-top: 12px;
+     border: none;
+     border-radius: 5px;
+     background-color: green;
+     color: white;
+ }
+ 
+ .login-main>form>li {
+     margin: 9px 0px;
+ }
+ 
+ #forgot-pass {
+     text-align: center;
  }
