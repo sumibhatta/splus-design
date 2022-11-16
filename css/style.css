@@ -208,3 +208,25 @@ tr:nth-child(even) {
 background-color: #2b9b2b;
 color: #fff;
 }
+
+.page-item{
+    cursor: pointer;
+}
+
+/* .pagination >.page-item:active > .page-link, .page-link:active{
+    background-color: #2b9b2b;
+} */
+
+.pagination > .active
+{
+    color: white !important;
+    background-color: #2b9b2b !important;
+    border: solid 1px #2b9b2b !important;
+    
+}
+
+.pagination > .active:hover
+{
+    background-color: #2b9b2b !important;
+    border: solid 1px #2b9b2b;
+}
