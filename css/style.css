@@ -6,7 +6,9 @@ body {
     border: none;
     font-size: 15px;
 }
-
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+}
 .button:hover,
 .cart-wrapper:hover,
 .category-item:hover,
