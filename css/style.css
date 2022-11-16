@@ -41,6 +41,10 @@ h4.title:hover,
     background-color: #055816;
 }
 
+.top-icons>.top-icon{
+    border: none;
+}
+
 navbar>ul>li {
     font-weight: bold;
 }
@@ -99,9 +103,11 @@ navbar>ul>li>a {
     margin: 20px 0 !important;
 }
 
-footer {
+footer, .grid> .footer-card {
     background-color: #323E42;
     color: white;
+    border: none;
+    text-align: left;
 }
 
 .newsletter {
@@ -121,6 +127,7 @@ footer {
     display: inline-block;
     margin-bottom: 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .footer-links {
@@ -148,7 +155,7 @@ footer {
 .login-button>a>button {
     border: none;
     border-radius: 5px;
-    background-color: green;
+    background-color: #055816;
     color: white;
     font-weight: bold;
 }
@@ -195,4 +202,9 @@ tr:nth-child(even) {
 
 .btn:hover {
     cursor: pointer;
+}
+
+#button-addon2{
+background-color: #2b9b2b;
+color: #fff;
 }
